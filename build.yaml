@@ -21,4 +21,6 @@ include:
   - board: nice_nano_v2
     shield: tatata64sbt_left
   - board: nice_nano_v2
-    shield: tatata64sbt_right
+    shield: tatata64sbt_righ
+  - board: nice_nano_v2
+    shield: settings_reset
