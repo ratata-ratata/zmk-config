@@ -15,7 +15,7 @@
                           &kp Y  &kp U     &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH
                           &kp H  &kp J     &kp K     &kp L     &kp SEMI  &kp APOS            &kp ENTER
             &kp B         &kp N  &kp M     &kp COMMA &kp DOT   &kp SLASH           &kp RSHFT &kp UP    &kp DEL
-            &kp LA(GRAVE)        &kp SPACE           &mo LOWER                     &kp LEFT  &kp DOWN  &kp RIGHT
+            &kp SPACE        &kp SPACE           &mo LOWER                     &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
 
