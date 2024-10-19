@@ -1,0 +1,16 @@
+if SHIELD_TATATA64SBT_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Tatata64S BT"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_TATATA64SBT_LEFT || SHIELD_TATATA64SBT_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
