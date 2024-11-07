@@ -1,0 +1,16 @@
+if SHIELD_TABLA60_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Tabla60"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_TABLA60_LEFT || SHIELD_TABLA60_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

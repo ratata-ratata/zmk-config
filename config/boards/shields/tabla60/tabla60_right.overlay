@@ -1,0 +1,5 @@
+#include "tabla60.dtsi"
+
+&default_transform {
+    row-offset = <5>;
+};
