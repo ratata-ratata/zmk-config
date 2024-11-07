@@ -1,7 +1,7 @@
 if SHIELD_LETSSWAP_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Lets Swap"
+    default "Let's Swap"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
