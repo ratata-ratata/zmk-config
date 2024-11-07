@@ -29,4 +29,8 @@ include:
   - board: seeeduino_xiao_ble
     shield: tabla60_right
   - board: seeeduino_xiao_ble
+    shield: letsswap_left
+  - board: seeeduino_xiao_ble
+    shield: letsswap_right
+  - board: seeeduino_xiao_ble
     shield: settings_reset
