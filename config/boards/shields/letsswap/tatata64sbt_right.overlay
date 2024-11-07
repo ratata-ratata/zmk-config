@@ -1,5 +1,0 @@
-#include "tatata64sbt.dtsi"
-
-&default_transform {
-    row-offset = <5>;
-};

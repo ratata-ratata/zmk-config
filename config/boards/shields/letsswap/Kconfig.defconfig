@@ -1,14 +1,14 @@
-if SHIELD_TATATA64SBT_LEFT
+if SHIELD_LETSSWAP_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Tatata64S BT"
+    default "Let's Swap"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_TATATA64SBT_LEFT || SHIELD_TATATA64SBT_RIGHT
+if SHIELD_LETSSWAP_LEFT || SHIELD_LETSSWAP_RIGHT
 
 config ZMK_SPLIT
     default y
