@@ -1,5 +1,5 @@
 #include "letsswap.dtsi"
 
 &default_transform {
-    col-offset = <7>;
+    col-offset = <6>;
 };

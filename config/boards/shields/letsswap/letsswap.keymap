@@ -11,17 +11,15 @@
 
         default_layer {
             bindings = <
-                                            &none     &none                                                 &bt BT_NXT &bt BT_CLR_ALL
-            &kp ESC   &kp Q  &kp L    &kp U &kp COMMA &kp DOT   &kp F         &kp W       &kp R    &kp Y    &kp P      &kp BSPC
-            &kp TAB   &kp E  &kp I    &kp A &kp O     &kp MINUS &kp K         &kp T       &kp N    &kp S    &kp H      &kp SLASH
-            &kp LSHFT &kp Z  &kp X    &kp C &kp V     &kp SEMI  &kp G         &kp D       &kp M    &kp J    &kp B      &kp ENTER
-            &kp LCTRL &none  &kp LALT &none &mo LOWER &kp SPACE &kp LA(GRAVE) &mo RAISE   &kp LEFT &kp DOWN &kp UP     &kp RIGHT
+            &kp ESC   &kp Q    &kp L   &kp U &kp COMMA &kp DOT   &kp F         &kp W       &kp R    &kp Y    &kp P      &kp BSPC
+            &kp TAB   &kp E    &kp I   &kp A &kp O     &kp MINUS &kp K         &kp T       &kp N    &kp S    &kp H      &kp SLASH
+            &kp LSHFT &kp Z    &kp X   &kp C &kp V     &kp SEMI  &kp G         &kp D       &kp M    &kp J    &kp B      &kp ENTER
+            &kp LCTRL &kp LALT &kp END &kp HOME        &mo LOWER &kp SPACE &kp LA(GRAVE) &mo RAISE   &kp LEFT &kp DOWN &kp UP     &kp RIGHT
             >;
         };
 
         Raise_layer {
             bindings = <
-                                              &trans   &trans                                       &trans   &trans
             &kp GRAVE &kp N1  &kp N2  &kp N3  &kp N4   &kp N5  &kp N6  &kp N7    &kp N8    &kp N9   &kp N0   &kp DEL
             &trans    &kp F1  &kp F2  &kp F3  &kp F4   &kp F5  &kp F6  &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH
             &trans    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11 &kp F12 &trans    &trans    &kp SEMI &kp APOS &kp SLASH
@@ -31,7 +29,6 @@
             
         lower_layer {
             bindings = <
-                                                &trans   &trans                                            &trans   &trans
             &kp TILDE &kp EXCL &kp AT  &kp HASH &kp DLLR &kp PRCNT &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR &kp DEL
             &trans    &kp F1   &kp F2  &kp F3   &kp F4   &kp F5    &kp F6    &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE
             &trans    &kp F7   &kp F8  &kp F9   &kp F10  &kp F11   &kp F12   &trans    &trans    &kp COLON &kp DQT  &kp QMARK
