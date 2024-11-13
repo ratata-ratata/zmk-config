@@ -23,11 +23,6 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
 
-  - board: nice_nano_v2
-    shield: tatata64sbt_left
-  - board: nice_nano_v2
-    shield: tatata64sbt_right
-
   - board: seeeduino_xiao_ble
     shield: tabla60_left
   - board: seeeduino_xiao_ble

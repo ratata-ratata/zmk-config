@@ -1,5 +1,0 @@
-config SHIELD_LETSSWAP_LEFT
-    def_bool $(shields_list_contains,letsswap_left)
-
-config SHIELD_LETSSWAP_RIGHT
-    def_bool $(shields_list_contains,letsswap_right)
